@@ -58,3 +58,64 @@ if (lessthen >= lessthen1) {
 } else {
   console.log("the ans wrong");
 }
+
+// Task 10:write a program to compare two number using == and === and log the result in console.
+
+let compare = 12;
+let compare2 = "12";
+
+if (compare == compare2) {
+  console.log("they are same");
+} else {
+  console.log("they are not same");
+}
+
+let eqal = 12;
+let eqal2 = "12";
+
+if (compare === compare2) {
+  console.log("they are same");
+} else {
+  console.log("they are not same");
+}
+
+// Task 11: write a program that use in ternary operator to chack if a number is positive or negative and log the result to the console.
+
+let a = 34;
+let b = 54;
+
+console.log(a < b) ? a : b;
+
+//Task 12: write a program that uses the && operator to combime two condition and log the result to the console.
+
+let isAdult = 23;
+let hasTicket = 31;
+console.log(isAdult && hasTicket);
+// or
+if (isAdult && hasTicket) {
+  console.log("correct");
+} else {
+  console.log("incorrect");
+}
+
+//Task 13: write a program that uses the || operator to combime two condition and log the result to the console.
+
+let boys = 70;
+let girls = 90;
+
+if (boys || girls) {
+  console.log("power");
+} else {
+  console.log("low power");
+}
+
+//Task 14:  write a program that uses the ! operator to combime two condition and log the result to the console.
+
+let man = !12;
+let women = !30;
+
+if (man && women) {
+  console.log("have ranny");
+}else{
+  console.log("not ranny");
+}
